@@ -90,9 +90,9 @@ allprojects {
         apply<name.remal.gradle_plugins.sonarlint.SonarLintPlugin>()
         apply<com.diffplug.gradle.spotless.SpotlessPlugin>()
         configure<com.diffplug.gradle.spotless.SpotlessExtension> {
-            /*java {
+            java {
                 palantirJavaFormat("2.39.0")
-            }*/
+            }
         }
 
         plugins.apply(fr.brouillard.oss.gradle.plugins.JGitverPlugin::class.java)
