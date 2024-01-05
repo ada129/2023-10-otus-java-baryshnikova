@@ -1,1 +1,0 @@
-# Baryshnikova E.A 
